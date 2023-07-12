@@ -1,10 +1,17 @@
 .header {
+  position: absolute;
+  padding: 40px 0;
+  z-index: 1000;
+  width: 100%;
+}
+.header__wrapper {
   display: flex;
   justify-content: space-between;
-  padding: 40px 0;
+  width: auto;
 }
 .navigation {
   display: flex;
+  align-items: center;
 }
 .header__icon_link {
   margin-right: 71px;
@@ -26,6 +33,7 @@
   font-size: 12px;
   text-transform: uppercase;
   padding: 12px 20px;
+  color: var(--secondary-text-color-theme-dark);
   border: 1px solid var(--accent-color);
   border-radius: 25px;
   &:hover {

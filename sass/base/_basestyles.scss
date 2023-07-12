@@ -22,6 +22,10 @@ p {
 
 a {
   text-decoration: none;
+  color: var(--secondary-text-color-theme-dark);
+  &:hover {
+    color: var(--accent-color);
+  }
 }
 
 button {
@@ -40,8 +44,7 @@ body {
 
 .container {
   width: 1280px;
-  margin-left: auto;
-  margin-right: auto;
   padding-left: 55px;
   padding-right: 55px;
+  margin: auto;
 }
