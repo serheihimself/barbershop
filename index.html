@@ -7,8 +7,33 @@
       rel="stylesheet"
       href="node_modules/modern-normalize/modern-normalize.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/main.min.css" />
     <title>Barbershop</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header container">
+      <nav class="navigation">
+        <a href="#" class="header__icon_link"
+          ><svg width="69" height="55">
+            <use href="./images/sprite.svg#icon-Logo"></use></svg
+        ></a>
+        <ul class="navigation__list">
+          <li><a href="">About us</a></li>
+          <li><a href="">Services and prices </a></li>
+          <li><a href="">Masters</a></li>
+          <li><a href="">Contacts</a></li>
+        </ul>
+      </nav>
+      <div class="header__contacts_wrapper">
+        <a href="">+38 044 111 11 11</a>
+        <button type="button" class="header__contacts_btn">Booking</button>
+      </div>
+    </header>
+  </body>
 </html>
