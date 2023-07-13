@@ -119,3 +119,16 @@
   font-weight: 400;
   line-height: 26px;
 }
+.price__section {
+  background-image: url("../images/prices.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.price__section_list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 30px 40px;
+  color: var(--primary-text-color-theme-dark);
+}

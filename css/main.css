@@ -65,6 +65,10 @@ body {
   background-color: var(--accent-color);
 }
 
+.dark__theme_btn {
+  color: var(--secondary-text-color-theme-dark);
+}
+
 .header {
   position: absolute;
   padding: 40px 0;
@@ -97,10 +101,6 @@ body {
   display: flex;
   align-items: center;
   gap: 40px;
-}
-
-.dark__theme_btn {
-  color: var(--secondary-text-color-theme-dark);
 }
 
 .main__hero {
@@ -241,4 +241,19 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 26px;
+}
+
+.price__section {
+  background-image: url("../images/prices.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.price__section_list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 30px 40px;
+  color: var(--primary-text-color-theme-dark);
 }/*# sourceMappingURL=main.css.map */
