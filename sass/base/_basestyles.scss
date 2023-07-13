@@ -66,4 +66,11 @@ body {
 }
 .dark__theme_btn {
   color: var(--secondary-text-color-theme-dark);
+  display: block;
+  margin: auto;
+}
+.section_span {
+  flex-grow: 1;
+  border-bottom: 1px solid var(--primary-text-color-theme-dark);
+  opacity: 0.12;
 }
