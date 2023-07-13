@@ -176,3 +176,28 @@
 .price__section_link {
   display: flex;
 }
+.benefits___section_wrapper {
+  display: flex;
+  height: 330px;
+  justify-content: space-around;
+}
+.benefits__section_list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.benefits__section_card {
+  background-color: var(--background-color);
+  width: 170px;
+  height: 133px;
+  padding: 20px 45px;
+  text-align: center;
+  &:nth-child(3) {
+    margin-top: 30px;
+  }
+}
+
+.benefits___section_box {
+  width: 500px;
+}

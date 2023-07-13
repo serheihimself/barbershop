@@ -5,6 +5,7 @@
   --secondary-text-color-theme-dark: #ffffff;
   --primary-text-color-theme-light: #555555;
   --secondary-text-color-theme-light: #303030;
+  --background-color: #f7f7f7;
   --accent-color: #ff6c00;
   --transition: 250ms linear;
 }
@@ -315,4 +316,32 @@ body {
 
 .price__section_link {
   display: flex;
+}
+
+.benefits___section_wrapper {
+  display: flex;
+  height: 330px;
+  justify-content: space-around;
+}
+
+.benefits__section_list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.benefits__section_card {
+  background-color: var(--background-color);
+  width: 170px;
+  height: 133px;
+  padding: 20px 45px;
+  text-align: center;
+}
+.benefits__section_card:nth-child(3) {
+  margin-top: 30px;
+}
+
+.benefits___section_box {
+  width: 500px;
 }/*# sourceMappingURL=main.css.map */
