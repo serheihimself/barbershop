@@ -26,17 +26,6 @@
   align-items: center;
   gap: 40px;
 }
-.header__contacts_btn {
-  background-color: transparent;
-  font-family: var(--primary-font);
-  font-weight: 600;
-  font-size: 12px;
-  text-transform: uppercase;
-  padding: 12px 20px;
+.dark__theme_btn {
   color: var(--secondary-text-color-theme-dark);
-  border: 1px solid var(--accent-color);
-  border-radius: 25px;
-  &:hover {
-    background-color: var(--accent-color);
-  }
 }

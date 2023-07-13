@@ -71,3 +71,51 @@
   font-weight: 400;
   line-height: 30px;
 }
+.offer__section {
+  display: flex;
+  gap: 64px;
+}
+.offer__section_wrapper {
+  display: flex;
+  gap: 30px;
+}
+.offer__section_description {
+  color: var(--secondary-text-color-theme-light);
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.offer__section_description::before {
+  content: "";
+  width: 60px;
+  height: 1px;
+  background-color: black;
+  display: inline-block;
+  margin-bottom: 4px;
+  margin-right: 20px;
+}
+.offer__section_box {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.offer__section_title {
+  font-family: var(--secondary-font);
+  color: var(--secondary-text-color-theme-light);
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 2.1px;
+}
+.offer__section_text {
+  color: var(--primary-text-color-theme-light);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.offer__section_paragraph {
+  color: var(--primary-text-color-theme-light);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+}

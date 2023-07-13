@@ -48,3 +48,19 @@ body {
   padding-right: 55px;
   margin: auto;
 }
+
+.button {
+  width: 160px;
+  height: 40px;
+  background-color: transparent;
+  font-family: var(--primary-font);
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  border: 1px solid var(--accent-color);
+  border-radius: 25px;
+  &:hover {
+    background-color: var(--accent-color);
+  }
+}
