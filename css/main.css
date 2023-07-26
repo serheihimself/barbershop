@@ -418,4 +418,18 @@ body {
 
 .social__icon:hover {
   fill: currentColor;
+}
+
+.varous__profits_list {
+  display: flex;
+  gap: 30px;
+  margin-top: 44px;
+}
+
+.footer {
+  background-color: #191c26;
+}
+
+.footer__wrapper {
+  display: flex;
 }/*# sourceMappingURL=main.css.map */
