@@ -272,3 +272,21 @@
   gap: 30px;
   margin-top: 44px;
 }
+.constacts__section {
+  background-color: #191c26;
+  background-position: right;
+  display: flex;
+}
+.contacts__wrapper {
+  padding-left: 55px;
+  padding-right: 40px;
+  width: 50%;
+}
+.contacts__container {
+  background-image: url("../../images/contacts__section_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  padding-left: 100px;
+  padding-right: 105px;
+}
