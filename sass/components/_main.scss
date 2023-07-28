@@ -290,3 +290,23 @@
   padding-left: 100px;
   padding-right: 105px;
 }
+.constacts__section_form {
+  margin-top: 44px;
+}
+.constacts__section_input {
+  background-color: transparent;
+  width: 270px;
+  height: 24px;
+  border: none;
+  border-bottom: 1px solid var(--secondary-text-color-theme-dark);
+  opacity: 0.4;
+  cursor: pointer;
+}
+#constacts__section_textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid var(--secondary-text-color-theme-dark);
+  opacity: 0.4;
+  margin: 44px 0;
+  cursor: pointer;
+}
