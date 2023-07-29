@@ -468,4 +468,11 @@ body {
   opacity: 0.4;
   margin: 44px 0;
   cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 127px;
 }/*# sourceMappingURL=main.css.map */
