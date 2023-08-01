@@ -475,4 +475,19 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 127px;
+}
+
+.footer__list {
+  display: flex;
+  gap: 40px;
+}
+
+.footer__list::before {
+  content: "";
+  width: 60px;
+  height: 1px;
+  background-color: black;
+  display: block;
+  box-sizing: border-box;
+  margin-top: 10px;
 }/*# sourceMappingURL=main.css.map */
