@@ -564,6 +564,7 @@ div[data-glide-el=controls] {
   width: 44px;
   height: 44px;
   background-color: var(--secondary-text-color-theme-dark);
+  color: #000;
   padding: 12px;
   display: block;
   border-radius: 50%;
@@ -573,7 +574,7 @@ div[data-glide-el=controls] {
   color: var(--accent-color);
 }
 
-.social__icon:hover {
+.social__icon {
   fill: currentColor;
 }
 
