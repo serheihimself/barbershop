@@ -205,6 +205,9 @@ div[data-glide-el=controls] {
   margin-right: 26px;
   padding: 8px 0;
 }
+.glide__arrow:hover {
+  color: var(--background-color);
+}
 
 .main__hero_wrapper {
   position: absolute;
