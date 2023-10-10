@@ -569,6 +569,7 @@ div[data-glide-el=controls] {
   border-radius: 50%;
 }
 .barbers__link:hover {
+  background-color: #000;
   color: var(--accent-color);
 }
 
@@ -615,20 +616,22 @@ div[data-glide-el=controls] {
 .constacts__section_input {
   background-color: transparent;
   width: 100%;
-  height: 24px;
+  height: 36px;
   border: none;
-  border-bottom: 1px solid var(--secondary-text-color-theme-dark);
-  opacity: 0.4;
+  border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+  padding: 10px 5px;
+  color: var(--secondary-text-color-theme-dark);
   cursor: pointer;
 }
 
 #constacts__section_textarea {
   width: 100%;
+  padding: 10px 5px;
   background-color: transparent;
   border: none;
   resize: none;
-  border-bottom: 1px solid var(--secondary-text-color-theme-dark);
-  opacity: 0.4;
+  border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+  color: var(--secondary-text-color-theme-dark);
   margin: 44px 0;
   cursor: pointer;
 }
