@@ -189,6 +189,95 @@ body {
   letter-spacing: 3.6px;
 }
 
+.smoke ul {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.smoke ul li {
+  filter: blur(0.4px);
+  display: inline-block;
+  animation: smoke-back 1500ms linear forwards;
+  cursor: pointer;
+}
+
+.smoke ul:hover li {
+  animation: smoke 4s linear forwards;
+}
+
+@keyframes smoke {
+  0% {
+    transform: rotate(0deg) translateY(0px);
+    opacity: 1;
+    filter: blur(1px);
+  }
+  33% {
+    transform: rotate(45deg) translateY(-200px);
+    opacity: 0;
+    filter: blur(20px);
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(0deg) translateY(0px);
+    opacity: 1;
+    filter: blur(1px);
+  }
+}
+@keyframes smoke-back {
+  0% {
+    transform: rotate(45deg) translateY(-200px);
+    opacity: 0;
+    filter: blur(20px);
+  }
+  100% {
+    transform: rotate(0deg) translateY(0px);
+    opacity: 1;
+    filter: blur(1px);
+  }
+}
+.smoke ul li:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.smoke ul li:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.smoke ul li:nth-child(3) {
+  animation-delay: 0.8s;
+}
+
+.smoke ul li:nth-child(4) {
+  animation-delay: 1.2s;
+}
+
+.smoke ul li:nth-child(5) {
+  animation-delay: 1.6s;
+}
+
+.smoke ul li:nth-child(6) {
+  animation-delay: 2s;
+}
+
+.smoke ul li:nth-child(7) {
+  animation-delay: 2.4s;
+}
+
+.smoke ul li:nth-child(8) {
+  animation-delay: 2.8s;
+}
+
+.smoke ul li:nth-child(9) {
+  animation-delay: 3.2s;
+}
+
+.smoke ul li:nth-child(10) {
+  animation-delay: 3.6s;
+}
+
 .main__hero_text {
   color: var(--primary-text-color-theme-dark);
   font-size: 16px;
