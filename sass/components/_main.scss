@@ -78,6 +78,7 @@ div[data-glide-el="controls"] {
   padding: 8px 0;
   &:hover {
     color: var(--background-color);
+    border-bottom: 2px solid var(--background-color);
   }
 }
 .main__hero_wrapper {
