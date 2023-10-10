@@ -207,6 +207,7 @@ div[data-glide-el=controls] {
 }
 .glide__arrow:hover {
   color: var(--background-color);
+  border-bottom: 2px solid var(--background-color);
 }
 
 .main__hero_wrapper {
