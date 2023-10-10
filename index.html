@@ -17,6 +17,10 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/main.min.css" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/@glidejs/glide/dist/css/glide.core.min.css"
+    />
     <title>Barbershop</title>
   </head>
   <body>
@@ -63,6 +67,29 @@
           </ul>
         </aside>
         <section class="main__hero_section">
+          <div class="glide">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides">
+                <li class="glide__slide glide__slide_1"></li>
+                <li class="glide__slide glide__slide_2"></li>
+                <li class="glide__slide glide__slide_3"></li>
+              </ul>
+            </div>
+            <div class="glide__arrows" data-glide-el="controls">
+              <button
+                class="glide__arrow glide__arrow--left"
+                data-glide-dir="<"
+              >
+                Back
+              </button>
+              <button
+                class="glide__arrow glide__arrow--right"
+                data-glide-dir=">"
+              >
+                Forward
+              </button>
+            </div>
+          </div>
           <div class="main__hero_wrapper">
             <p class="main__hero_description">A hair salon for men in Kyiv</p>
             <h1 class="main__title smoke">
@@ -457,5 +484,7 @@
         </li>
       </ul>
     </footer>
+    <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+    <script src="./js/slider.js" defer></script>
   </body>
 </html>
