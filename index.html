@@ -27,7 +27,7 @@
     <header class="header">
       <div class="header__wrapper container">
         <nav class="navigation">
-          <a href="#" class="header__icon_link"
+          <a href="/index.html" class="header__icon_link"
             ><svg width="69" height="55">
               <use href="./images/sprite.svg#icon-Logo"></use></svg
           ></a>
@@ -390,10 +390,24 @@
         <div class="container">
           <p>IN LATIN, "BARBA" MEANS "BEARD"</p>
           <ul class="varous__profits_list">
-            <li><img src="./images/1.jpg" alt="Men's Haircut" /></li>
-            <li><img src="./images/2.jpg" alt="Beard Trim" /></li>
-            <li><img src="./images/3.jpg" alt="Mustache Trim" /></li>
-            <li><img src="./images/4.jpg" alt="Straight Razor Shave" /></li>
+            <li class="gallery__item">
+              <img src="./images/1.jpg" alt="Men's Haircut" />
+              <div class="gallery__item-hover3">
+                <div class="gallery__item-hover gallery__item-hover1"><p class="gallery_item_span">MEN'S</p></div>
+              <div class="gallery__item-hover gallery__item-hover2"><p class="gallery_item_span">HAIRCUT</p></div>
+              </div></li>
+            <li class="gallery__item"><img src="./images/2.jpg" alt="Beard Trim" /><div class="gallery__item-hover3">
+              <div class="gallery__item-hover gallery__item-hover1"><p class="gallery_item_span">BEARD</p></div>
+            <div class="gallery__item-hover gallery__item-hover2"><p class="gallery_item_span">TRIM</p></div>
+            </div></li>
+            <li class="gallery__item"><img src="./images/3.jpg" alt="Mustache Trim" /><div class="gallery__item-hover3">
+              <div class="gallery__item-hover gallery__item-hover1"><p class="gallery_item_span">MUSTACHE</p></div>
+            <div class="gallery__item-hover gallery__item-hover2"><p class="gallery_item_span">TRIM</p></div>
+            </div></li>
+            <li class="gallery__item"><img src="./images/4.jpg" alt="Straight Razor Shave" /><div class="gallery__item-hover3">
+              <div class="gallery__item-hover gallery__item-hover1"><p class="gallery_item_span">STRAIGHT</p></div>
+            <div class="gallery__item-hover gallery__item-hover2"><p class="gallery_item_span">RAZOR SHAVE</p></div>
+            </div></li>
           </ul>
         </div>
       </section>
@@ -488,6 +502,11 @@
         </li>
       </ul>
     </footer>
+    <!-- <div class="gallery__item">
+      <div class="gallery__item-hover gallery__item-hover1"><span>MEN'S</span></div>
+      <div class="gallery__item-hover gallery__item-hover2"><span>HAIRCUT</span></div>
+      <div class="gallery__item-hover3"></div>
+    </div> -->
     <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
     <script>
       new Glide('.glide').mount()
