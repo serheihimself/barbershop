@@ -23,6 +23,7 @@ p {
 
 a {
   text-decoration: none;
+  text-align: center;
   color: var(--secondary-text-color-theme-dark);
 }
 a:hover {
@@ -362,6 +363,13 @@ div[data-glide-el=controls] {
   gap: 30px;
 }
 
+.offer__section_image {
+  transition: transform 0.3s ease;
+}
+.offer__section_image:hover {
+  transform: scale(1.1);
+}
+
 .offer__section_description {
   color: var(--secondary-text-color-theme-light);
   font-size: 11px;
@@ -493,6 +501,10 @@ div[data-glide-el=controls] {
   height: 133px;
   padding: 20px 45px;
   text-align: center;
+  transition: transform 0.3s ease;
+}
+.benefits__section_card:hover {
+  transform: scale(1.2);
 }
 .benefits__section_card:nth-child(even) {
   margin-top: 30px;

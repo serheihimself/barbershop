@@ -32,7 +32,7 @@
               <use href="./images/sprite.svg#icon-Logo"></use></svg
           ></a>
           <ul class="navigation__list">
-            <li><a href="">About us</a></li>
+            <li><a href="#about">About us</a></li>
             <li><a href="">Services and prices </a></li>
             <li><a href="">Barbers</a></li>
             <li><a href="">Contacts</a></li>
@@ -40,7 +40,7 @@
         </nav>
         <div class="header__contacts_wrapper">
           <a href="">+38 044 310 90 85</a>
-          <button type="button" class="button dark__theme_btn">Booking</button>
+          <a href="#form" class="button dark__theme_btn">Booking</a>
         </div>
       </div>
     </header>
@@ -113,11 +113,11 @@
           </div>
         </section>
       </div>
-      <section class="section">
+      <section class="section" id="about">
         <div class="offer__section container">
           <div class="offer__section_wrapper">
-            <img src="./images/barb.jpg" alt="barb" width="270" height="445" />
-            <img src="./images/hair.jpg" alt="hair" width="270" height="445" />
+            <img src="./images/barb.jpg" alt="barb" width="270" height="445" class="offer__section_image"/>
+            <img src="./images/hair.jpg" alt="hair" width="270" height="445" class="offer__section_image"/>
           </div>
           <div class="offer__section_box">
             <p class="offer__section_description">About</p>
@@ -397,7 +397,7 @@
           </ul>
         </div>
       </section>
-      <section class="constacts__section">
+      <section class="constacts__section" id="form">
         <div class="contacts__wrapper section">
           <h2 class="price__section_title">Online-booking</h2>
           <form class="constacts__section_form">
