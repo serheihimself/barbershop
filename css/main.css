@@ -65,6 +65,7 @@ body {
 }
 .button:hover {
   background-color: var(--accent-color);
+  color: var(--secondary-text-color-theme-dark);
 }
 
 .dark__theme_btn {
