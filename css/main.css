@@ -75,6 +75,10 @@ html {
   color: var(--secondary-text-color-theme-dark);
 }
 
+.light__theme_btn {
+  color: var(--secondary-text-color-theme-light);
+}
+
 .dark__theme_btn {
   color: var(--secondary-text-color-theme-dark);
   display: block;
